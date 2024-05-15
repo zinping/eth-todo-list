@@ -1,0 +1,25 @@
+{
+  "name": "eth-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "chai": "^5.1.1",
+    "chai-as-promised": "^7.1.2",
+    "chai-bignumber": "^3.1.0",
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.1.0",
+    "truffle": "^5.11.5",
+    "truffle-contract": "^4.0.31"
+  }
+}
