@@ -1,3 +1,5 @@
+// import Web3 from "web3";
+
 App = {
   loading: false,
   contracts: {},
@@ -13,7 +15,7 @@ App = {
   loadWeb3: async () => {
     if (typeof web3 !== "undefined") {
       App.web3Provider = web3.currentProvider;
-      web3 = new Web3(web3.currentProvider);
+      web3 = new Web3(web3.currentProvider || "http://localhost:7545");
     } else {
       window.alert("Please connect to Metamask.");
     }
